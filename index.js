@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||刘征||梁雯雯||新年快乐！||要天天开心哦❤️||#rectangle|');
+      S.UI.simulate('|#countdown 3||刘征||梁雯雯||2025新年快乐！||要天天开心哦❤️||#rectangle|');
     }
 
     S.Drawing.loop(function () {
